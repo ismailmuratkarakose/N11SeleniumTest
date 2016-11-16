@@ -15,7 +15,6 @@ public class LoginPage {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\PC\\Desktop\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webElement= new Element(webDriver);
-
         webElement.getDriver().get("http://www.n11.com/");
     }
 
