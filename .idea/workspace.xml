@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8bf6619-1441-41f8-b1ec-928841f88ead" name="Default" comment="Some defects are corrected">
+    <list default="true" id="a8bf6619-1441-41f8-b1ec-928841f88ead" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/N11/LoginPageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/N11/LoginPageTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/N11/AuthorPage.java" afterPath="$PROJECT_DIR$/src/main/java/N11/AuthorPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/N11/AuthorPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/N11/AuthorPageTest.java" />
     </list>
     <ignored path="N11MidtermProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -786,7 +784,7 @@
       <workItem from="1479140017947" duration="15764000" />
       <workItem from="1479293058535" duration="2067000" />
       <workItem from="1479418372223" duration="11075000" />
-      <workItem from="1479457448891" duration="6074000" />
+      <workItem from="1479457448891" duration="6119000" />
     </task>
     <task id="LOCAL-00001" summary="Some defects are corrected">
       <created>1479429360897</created>
@@ -795,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479429360897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed version of the assignment">
+      <created>1479465179055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479465179055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -831,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35978000" />
+    <option name="totallyTimeSpent" value="36023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -895,7 +900,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some defects are corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some defects are corrected" />
+    <MESSAGE value="Completed version of the assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed version of the assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
