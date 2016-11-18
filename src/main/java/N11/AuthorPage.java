@@ -47,9 +47,15 @@ public class AuthorPage {
         return webElement.findElementsByXpath("//*[@id='authorsList']/*/*/*/*");
     }
 
-    public void isTherePaging() {
-        if (!webElement.findElementByXpath("//*[@class='next navigation']").equals(null))
-            webElement.findElementByXpath("//*[@class='next navigation']").click();
+    public boolean isTherePaging() {
+        boolean result = webElement.findElementsByXpath("//*[@class='next navigation']").size() != 0;
+        if (result)
+            return true;
+        else
+            return false;
+    }
+    public void goToNextPage(){
+        webElement.findElementByXpath("//*[@class='next navigation']").click();
     }
 
 }

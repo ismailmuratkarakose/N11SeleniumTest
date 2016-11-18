@@ -17,15 +17,23 @@ public class AuthorPageTest {
     @Test
     public void testNumberOfAuthorsAndHeaders() {
         String alphabet = "ABCÇDEFGHIİJKLMNOÖPQRSŞTUÜVWXYZ";
+        WebElement tempElement=null;
+        WebElement tempNextPageElement= null;
         authorPage = new AuthorPage();
         authorPage.getWebElement().getDriver().get("http://www.n11.com/yazarlar/");
-        for (int i = 1; i < alphabet.length(); i++) {
+        for (int i = 0; i < alphabet.length(); i++) {
             char temp = alphabet.charAt(i);
             authorPage.getWebElement().getDriver().get("http://www.n11.com/yazarlar/" + temp);
             List<WebElement> listOfAuthorNames=authorPage.listOfAuthorNames();
             assertEquals(true, listOfAuthorNames.size() <= 80);
             assertEquals(temp, listOfAuthorNames.get(0).getText().charAt(0));
-        }
+            if(authorPage.isTherePaging()){
+                tempElement=listOfAuthorNames.get(79);
+                authorPage.goToNextPage();
+                tempNextPageElement=authorPage.listOfAuthorNamesForPagigator().get(0);
+               }
+            assertNotEquals(tempNextPageElement,tempElement);
+            }
     }
 
     @Test
