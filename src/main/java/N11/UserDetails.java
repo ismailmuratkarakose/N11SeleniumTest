@@ -5,5 +5,5 @@ package N11;
  */
 public class UserDetails {
     public static final String PHONENUMBER = "5069452424";
-    public static final String PASSWORD = "amasya";
+    public static final String PASSWORD = "amasyaasdas";
 }
